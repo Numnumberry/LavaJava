@@ -1,2 +1,2 @@
-# Lava_Java
+# LavaJava
 my first website

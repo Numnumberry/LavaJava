@@ -1,2 +1,2 @@
 # LavaJava
-my first website
+my first website using HTML, CSS, and Flexbox

@@ -1,22 +1,21 @@
 .middle-content {
     margin: auto;       /*horizontally centers*/
-    width: 1500px;
+    width: 100%;
 }
 
 .top-banner {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    background-image: url("paper2.jpg");
+    background-image: url("../images/paper2.jpg");
     background-size: cover; 
     background-attachment: scroll;
     color: #e4b593;
-    font-size: 7em;
-    font-family: "Courier New";
+    font-size: 6em;
 }
 
 .bean {
-    background-image: url("coffee1.png");
+    background-image: url("../images/coffee1.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 104px;
@@ -30,7 +29,7 @@
 
 header {
     position: fixed;
-    min-width: 1500px;
+    min-width: 826px;
 }
 
 a:hover {
@@ -40,15 +39,15 @@ a:hover {
 .menu-button {
     text-decoration: none;
     color: #e4b593;
-    font-size: 26px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    font-size: 24px;
+    padding-top: 3px;
+    padding-bottom: 4px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .top-picture {
-    background-image: url("coffeeShop.jpg");
+    background-image: url("../images/coffeeShop.jpg");
     background-size: cover; 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -57,19 +56,13 @@ a:hover {
     height: 800px;
 }
 
-.main-content {
-    background: #531307;
-    width: 100%;
-    height: 1000px;
-}
-
 .banner1 {
-    height: 400px;
+    height: 186px;
     color: #e4b593;
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
-    padding-top: 120px;;
-    background-image: url("paper2.jpg");
+    padding-top: 76px;;
+    background-image: url("../images/paper2.jpg");
     background-size: cover; 
 }
 
@@ -79,20 +72,31 @@ a:hover {
     justify-content: space-between;
 }
 
+.info2-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
 .image1 {
-    background-image: url("pourCoffee.png");
+    background-image: url("../images/pourCoffee.png");
     background-size: cover; 
     background-repeat: no-repeat;
-    width: 60%;
-    height: 423px;
+    width: 52%;
+    height: 464px;
+}
+
+.image2 {
+    background-image: url("../images/bag.jpg");
 }
 
 .text1 {
-    background-image: url("tan.jpg");
+    background-image: url("../images/tan.jpg");
     background-size: cover; 
     text-align: center;
-    font-size: 66px;
-    padding-top: 35px;  
-    width: 40%;
-    height: 388px;
+    font-size: 45px;
+    padding-top: 122px;  
+    width: 48%;
+    height: 342px;
 }
